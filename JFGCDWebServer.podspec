@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JFGCDWebServer"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "Handle an error when uploading the App Store font library."
   spec.homepage     = "https://github.com/jifengs/JFGCDWebServer"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
