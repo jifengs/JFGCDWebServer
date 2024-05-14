@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JFGCDWebServer"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Handle an error when uploading the App Store font library."
   spec.homepage     = "https://github.com/jifengs/JFGCDWebServer"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -15,6 +15,9 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.static_framework = true
+
+  spec.resource_bundles = {'JFGCDWebServer' => ['JFGCDWebServer/PrivacyInfo.xcprivacy']}
+
 
   spec.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
